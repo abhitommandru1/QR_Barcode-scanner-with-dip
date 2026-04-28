@@ -22,7 +22,7 @@ const Login = () => {
 
     setIsLoading(true);
     try {
-      const response = await axios.post('http://localhost:8000/login', {
+      const response = await axios.post('https://dip-backend-docker.onrender.com/login', {
         email,
         password,
       });

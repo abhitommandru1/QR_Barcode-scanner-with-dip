@@ -17,7 +17,7 @@ const WebcamScanner = ({ onScanResult, isProcessing }) => {
       const formData = new FormData();
       formData.append('base64_image', imageSrc);
 
-      const response = await fetch('http://localhost:8000/scan/live', {
+      const response = await fetch('https://dip-backend-docker.onrender.com/scan/live', {
         method: 'POST',
         body: formData,
       });

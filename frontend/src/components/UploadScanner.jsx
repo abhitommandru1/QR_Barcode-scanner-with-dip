@@ -42,7 +42,7 @@ const UploadScanner = ({ onScanResult, isProcessing }) => {
     formData.append('file', file);
 
     try {
-      const response = await fetch('http://localhost:8000/scan/upload', {
+      const response = await fetch('https://dip-backend-docker.onrender.com/scan/upload', {
         method: 'POST',
         body: formData,
       });
