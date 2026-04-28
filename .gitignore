@@ -1,0 +1,28 @@
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Global Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Project Directories (If built at root)
+node_modules/
+__pycache__/
+
+# Log files
+*.log
